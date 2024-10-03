@@ -8,10 +8,10 @@ namespace Tyuiu.KonovalovVA.Sprint1.Task7.V14.Test
         public void Calculate()
         {
             DataService ds = new DataService();
-            double x = 0.5;
-            double y = 1;
+            double x = 5;
+            double y = 5;
             double res = ds.Calculate(x, y);
-            Assert.AreEqual(0.447, res);
+            Assert.AreEqual(-0.889, res);
         }
     }
 }
